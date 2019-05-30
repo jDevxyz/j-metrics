@@ -1,0 +1,16 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "publish": {
+      "message": "chore(release): publish"
+    },
+    "bootstrap": {
+      "ignore": "component-*",
+      "npmClientArgs": ["--no-package-lock"]
+    }
+  },
+  "npmClient": "yarn",
+  "version": "1.0.0-SNAPSHOT"
+}

@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/server",
+    "target": "esnext",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/typings/interfaces"
+    ]
+  },
+  "jsdoc": "docs",
+  "exclude": [
+    "./dist/*",
+    "./node_modules/*",
+  ],
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/*.d.ts"
+  ]
+}

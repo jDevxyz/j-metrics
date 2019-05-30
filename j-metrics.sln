@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "j-metrics", "j-metrics.njsproj", "{D88D00B2-92F9-491F-981F-B81296F3508D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D88D00B2-92F9-491F-981F-B81296F3508D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D88D00B2-92F9-491F-981F-B81296F3508D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D88D00B2-92F9-491F-981F-B81296F3508D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D88D00B2-92F9-491F-981F-B81296F3508D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DE6B4C8-85C1-4763-B0AC-5CB95C5336AA}
+	EndGlobalSection
+EndGlobal
